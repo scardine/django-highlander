@@ -9,6 +9,14 @@ One problem with this kind of task is that crontab may start other instances bef
 
 Using this as the base class instead of BaseCommand will assure there is only one instance running at any time, and second instance will not run unless the previous one finished.
 
+Install
+-------
+
+Just grab it from the cheese shop:
+
+    pip install django-highlander
+
+
 How to use
 ----------
 
